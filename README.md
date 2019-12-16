@@ -1,4 +1,4 @@
-# Testing Legacy Code with JUnit
+ # Testing Legacy Code with JUnit
 
 ## Getting Started
 1. Fork this repository to make a copy on your own GitHub account.
