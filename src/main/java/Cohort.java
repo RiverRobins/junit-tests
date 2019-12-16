@@ -26,24 +26,4 @@ public class Cohort {
     public List<Student> getStudents() {
         return students;
     }
-
-    public void testCanAdd(){
-        List<Student> temp1 = this.students;
-        temp1.add(new Student(933, "Namey name of name"));
-        addStudent(new Student(933, "Namey name of name"));
-
-        assertEquals(temp1, this.getStudents());
-    }
-
-    public void testCanGetStudents(){
-        assertEquals(this.students, this.getStudents());
-    }
-
-    public void testAvg(){
-        double tot = 0;
-        for (Student i: this.students){
-            tot += i.getGradeAverage();
-        }
-        assertEquals(tot, this.getCohortAverage(), 0);
-    }
 }
